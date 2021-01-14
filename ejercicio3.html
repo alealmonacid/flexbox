@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+         :root {
+            font-family: 'cousine', monospace;
+        }
+        .container {
+            border: 2px solid black;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            
+        }
+        .menu{
+            width: 100%;
+            text-align: right;
+            margin-right: 20px;
+        }
+        .listado{
+            list-style: none;
+            font-weight:bold;
+        }
+        .item{
+           display: inline;
+           padding-bottom: 30px;
+           padding-right: 5%;
+           cursor: pointer;
+        }
+        .logo-chico{
+            width: 40px;
+            padding: 5px 30px 0px 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="mic.png" class="logo-chico">
+        </div>
+        <div class="menu">
+            <ul class="listado">
+                <li class="item">
+                    Inicio
+                </li>
+                <li class="item">
+                    Entrevista
+                </li>
+                <li class="item">
+                    Musica
+                </li>
+                <li class="item">
+                    Tendencia
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
